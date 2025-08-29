@@ -20,6 +20,7 @@
     "@typescript-eslint/parser": "^8.41.0",
     "embed-eslint": "^2.0.1",
     "embed-typescript": "^2.0.1",
+    "eslint": "^9.34.0",
     "typescript": "^5.9.2"
   }
 }
