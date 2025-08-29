@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "eslint-in-memory-relative-path-bug",
+  "version": "1.0.0",
+  "description": "Reproducible repo of ESLint Bug",
+  "scripts": {
+    "prepare": "embed-typescript external --input ./ --output src/external.json",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Jeongho Nam",
+  "license": "MIT",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "embed-eslint": "^2.0.1",
+    "embed-typescript": "^2.0.1",
+    "typescript": "^5.9.2"
+  }
+}
